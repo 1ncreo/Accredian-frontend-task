@@ -1,0 +1,91 @@
+/* Curved Rectangle Box */
+.curved-box {
+    position: relative;
+    width: 797px;
+    height: 63px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(26, 115, 232, 0.11);
+    border-radius: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  /* Text inside the curved box */
+  .curved-box-text {
+    color: #000; /* Black by default */
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: none; /* Prevent uppercase */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .curved-box-text.active {
+    color: #1a73e8; /* Blue when active */
+  }
+
+/* Second Curved Rectangle Box */
+/* Second Curved Rectangle Box */
+/* Second Curved Rectangle Box */
+/* Second Curved Rectangle Box */
+/* Second Curved Rectangle Box */
+/* Second Curved Rectangle Box */
+.second-curved-box {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 400px; /* Increased height to fit content */
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgba(26, 115, 232, 0.11);
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    padding: 40px; /* Increased padding */
+  }
+  
+  /* Grouped Text Box */
+  .grouped-text {
+    flex: 1;
+  }
+  
+  .grouped-text h2 {
+    color: #000; /* Black headline */
+    font-size: 48px; /* Larger font size */
+    font-weight: bold; /* Bold headline */
+    margin-bottom: 20px; /* Increased spacing */
+  }
+  
+  .grouped-text p {
+    color: #000;
+    font-size: 28px; /* Larger font size */
+  }
+  
+  .grouped-text p strong {
+    color: #1a73e8; /* Blue amount */
+    font-weight: bold;
+  }
+  
+  /* Image */
+  .grouped-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    align-items: center; /* Center image vertically */
+    margin-left: -100px; /* Move the image to the left */
+  }
+  
+  .grouped-image img {
+    max-width: 130%; /* Slightly larger image */
+    height: auto;
+  }
+
+/* Refer Now Button */
+/* Refer Now Button Container */
+.refer-now-container {
+    margin-top: 40px; /* Move the button lower */
+  }
